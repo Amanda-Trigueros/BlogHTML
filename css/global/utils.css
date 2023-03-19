@@ -65,10 +65,7 @@
 .margin-left-3x {
   margin-left: 3rem;
 } */
-.icon {
-  display:flex;
-  flex-direction:row ;
-}
+
 
 .images {
   width: 319px;

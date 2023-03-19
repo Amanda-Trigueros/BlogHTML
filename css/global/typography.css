@@ -66,6 +66,12 @@ h6 {
   line-height: 2.6875rem;
 } 
 
+.heading-lg--padding {
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+  padding-bottom: 24px;
+}
+
 .heading-md {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -74,6 +80,14 @@ h6 {
 .heading-sm {
   font-size: 1.5rem;
   line-height: 1.2rem;
+}
+
+.icon {
+  
+  vertical-align:bottom;
+  margin-left: -42px;
+  margin-right: 10px;
+  
 }
 
 .heading-xs {
