@@ -23,6 +23,14 @@
   padding: .5em;
 }
 
+.article-summary__card-p {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  padding: .5em;
+  background-color: var(--white);
+}
+
 
 .article {
   font-size: 18px;
