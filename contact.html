@@ -38,109 +38,131 @@
         </nav>
     </div>
   </header>
-  <main class="section-md article-summary">
-    <div class="container-sm">
-      <div class="article-summary__header">
+  <main class="section-md">
+    <div class="container-lg">
+      <div class="article-summary article-summary__header">
         <h2 class="heading-lg--padding semibold">Contact Me</h2>
-        <p class="text-lg light">Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
+        <p class=" text-lg light">Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
       </div>
-      <form>
-        <div >
-      <label for="name" class="text-xs light overline label">first name</label>
-      <input
-        id="name"
-        type="text"
-        name="name"
-        class="text-md light placeholder"
-        placeholder="Jhon"
-        required
-      />
-      <br />
-      <br />
+      
+      <form class="container-sm">
+        <section class="input-content">
+         
+          <div>
+            <label for="name" class="text-xs light overline">first name</label>
+            <input
+              class="input"
+              type="text"
+              name="name"
+              placeholder="Jhon"
+              required
+            />
+          </div>
 
-      <label for="lastname" class="text-xs light overline label">last name</label>
-      <input
-        id="lastname"
-        type="text"
-        name="lastname"
-        class="text-md light placeholder"
-        placeholder="Doe"
-        required
-      />
-      <br />
-      <br />
+          <div> 
+            <label for="lastname" class="text-xs light overline">last name</label>
+            <input
+              class="input"
+              type="text"
+              name="lastname"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          
+          <div>
+            <label class="text-xs light overline"> email</label>
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="jhon@mail.com"
+                required
+              />
+          </div>
+          
+          <div>
+            <label for="company" class="text-xs light overline">company</label>
+            <input
+              class="input"
+              type="text"
+              name="company"
+              placeholder="Company SA"
+            />
+          </div>
 
-      <label class="text-xs light overline label"> email</label>
-        <input
-          type="email"
-          name="email"
-          class="text-md light placeholder"
-          placeholder="jhon@mail.com"
-          required
-        />
-      <br />
-      <br />
-     
-      <label for="company" class="text-xs light overline label">company</label>
-      <input
-        id="company"
-        type="text"
-        name="company"
-        class="text-md light placeholder"
-        placeholder="Company SA"
-        required
-      />
-      <br />
-      <br />
+          <div>
+            <label class="text-xs light overline"> phone </label>
+              <input
+                class="input"
+                type="phone"
+                name="phone"
+                placeholder="987654321"
+                pattern="/regex/"
+                required
+              />
+          </div>
 
-      <label class="text-xs light overline label"> phone </label>
-        <input
-          type="phone"
-          name="phone"
-          class="text-md light placeholder"
-          placeholder="987654321"
-          pattern="/regex/"
-        />
-      <br />
-      <br />
+          <div>
+            <label class="text-xs light overline"> country </label>
+            <select name="select-country" class="text-md light select">
+              <option selected disabled hidden >Select one option</option>
+              <option value="peru">Perú</option>
+              <option value="costa-rica">Costa Rica</option>
+              <option value="mexico">México</option>
+            </select>
+          </div>
+        </section>
+        </br>
 
-      <label class="text-xs light overline label"> country </label>
-      <select name="select-country" class="text-md light">
-        <option selected disabled hidden >Select one option</option>
-        <option value="peru">Perú</option>
-        <option value="costa-rica">Costa Rica</option>
-        <option value="mexico">México</option>
-      </select>
-      <br />
-      <br />
-    </div>
+        <checkbox>
+          <h3 class="text-xs light overline checkbox__title">How can I help you?</h3>
+        <div class="checkbox">
+          <div>
+            <input id="checkbox_1" class= checkbox__input type="checkbox" name="checkbox_group_1"/>
+          </div>
+          <div>
+            <label for="checkbox_1" class="text-sm light">Job Offer</label> 
+            <span class="checkbox__message">If you are looking to expand your team</span>
+          </div>
+        </div>
 
-      <checkbox class="checkbox">
-        <p class="text-xs light overline">How can I help you?</p>
-      <label class="text-sm light">
-        <input type="checkbox" name="label-checkbox-day" value="job-offer"/>
-        Job Offer
-      </label>
-      <label class="text-sm light">
-        <input type="checkbox" name="label-checkbox-day" value="project-offer"/>
-        Project Offer
-      </label>
-      <label class="text-sm light">
-        <input  type="checkbox" name="label-checkbox-day" value="collaboration" />
-        Collaboration
-      </label>
-      <label class="text-sm light">
-        <input type="checkbox" name="label-checkbox-day" value="other"/>
-        Other
-      </label>
-      <br />
-      <br />
-    </checkbox>
-      <button class="button button--primary button--lg w-full" type="submit" name="submit">Send</button>
+        <div class="checkbox">
+          <div>
+            <input id="checkbox_2" class= checkbox__input type="checkbox" name="checkbox_group_2"/>
+          </div>
+          <div>
+            <label for="checkbox_2" class="text-sm light">Project Offer</label> 
+            <span class="checkbox__message">If you are looking to expand your team</span>
+          </div>
+        </div>
 
-    
-  </form>
+        <div class="checkbox">
+          <div>
+            <input id="checkbox_3" class= checkbox__input type="checkbox" name="checkbox_group_3"/>
+          </div>
+          <div>
+            <label for="checkbox_3" class="text-sm light"> Collaboration</label> 
+            <span class="checkbox__message">If you are looking to expand your team</span>
+          </div>
+        </div>
 
+        <div class="checkbox">
+          <div>
+            <input id="checkbox_4" class= checkbox__input type="checkbox" name="checkbox_group_4"/>
+          </div>
+          <div>
+            <label for="checkbox_4" class="text-sm light"> Other</label> 
+            <span class="checkbox__message">If you are looking to expand your team</span>
+          </div>
+        </div>
+        </checkbox>
+        <br />
+        <br />
+
+      
+        <button class="button button--primary button--lg w-full" type="submit" name="submit">Send</button>
+      </form>
     </div>
   </main>
 </body>

@@ -5,9 +5,22 @@
   line-height: 1.25rem;
   padding: .5rem .75rem;
   border-radius: 6px;
-  border: 1px solid var(--gray-700);
+  border: 1px solid var(--gray);
   background-color: var(--white);
 }
+
+.input-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/*.input-card {
+  display:flex;
+  flex-direction:column;
+  gap:32px;
+  padding: 16px;
+}*/
+
 
 .input::placeholder {
   color: var(--gray-500);
@@ -41,11 +54,12 @@
   left: 0.75rem;
 }
 
+/*
 .input__content {
   position: relative;
   padding-inline-start: 2rem;
   padding-inline-end: .75rem;
-}
+} */
 
 /* 
 .input:focus {
@@ -91,7 +105,7 @@
   cursor: pointer;
   padding-right: 2.5rem;
 
-  appearance: none;
+
   background-image: url(/assets/images/icons/arrow-down.svg);
   background-repeat: no-repeat;
   background-position-y: center;
@@ -108,9 +122,15 @@
 .checkbox {
   display: flex;
   gap: .5rem;
-  align-items: baseline;
+  align-items: flex-start;
+  padding: 0px;
   cursor: pointer;
 }
+
+.checkbox__title {
+  padding-bottom: .5rem;
+}
+
 
 .radio__input,
 .checkbox__input  {
@@ -158,7 +178,7 @@
   border: 1px solid var(--primary);
 
   /* Cargar la imagen del check como backgound image */
-  background-image: url(/assets/images/icons/check.svg);
+  background-image: url(/images/icons/check.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
