@@ -1,0 +1,29 @@
+.textfield {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  border-radius: 6px;
+  padding: 0px;
+  gap: 0px;
+  box-sizing: border-box;
+
+}
+
+.label {
+  display:block;
+  
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+.placeholder {
+  color: var(--gray-500)
+}

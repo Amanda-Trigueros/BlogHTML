@@ -29,6 +29,7 @@
   gap: 0.625em;
   padding: .5em;
   background-color: var(--white);
+  border-top-left-radius: 8px;
 }
 
 

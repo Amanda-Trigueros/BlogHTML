@@ -24,6 +24,13 @@
   margin: auto;
 }
 
+.container-form {
+  max-width: 640px;
+  height: 150px;
+  padding: 0 16px;
+  margin: auto;
+
+}
 /* Sections */
 .section-sm {
   margin: 32px 0;
