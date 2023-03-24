@@ -31,6 +31,12 @@ h6 {
   line-height: 1.6875rem;
 }
 
+.text-lg--padding {
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  padding-bottom: 1rem;
+}
+
 .text,
 .text-md {
   font-size: 1rem;
